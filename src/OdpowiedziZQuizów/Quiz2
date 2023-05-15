@@ -1,0 +1,93 @@
+1) What is the role of the constructor?
+Constructors have one purpose in life: to create an instance of a class. This can also be called creating an object.
+
+2) A class cannot be declared:
+Private
+
+3) Following code will result in: int num = 6.7
+Compilation error
+
+4) Following code will result in: int a1 = 5; double a2 = (float)a1;
+No errors
+
+5) Following code will result in: int num = 8/0;
+Runtime exception
+
+6) Following code will result in: float num = 5/0;
+Runtime exception
+
+7) A class can be transient
+NO
+
+8) Following code will result in: class A { int x = 1; public static void main(String [] args)
+{ System.out.println("x is " + x); }}
+
+Compilation error - x is not in class main
+
+9) Methods that are marked protected can be called in any subclass of that class.
+YES
+
+10) An abstract class can have non-abstract methods.
+True
+
+11) Java keywords are written in lowercase as well as uppercase.
+False - only lowercase
+
+12) What is an instanceof?
+An operator and keyword
+
+13) Primitive datatypes are allocated on a stack.
+True
+
+14) Can you compare a boolean to an integer?
+no (?)
+
+15) If class A implements an interface does it need to implement all methods of that interface?
+No, not when A is abstract
+
+16) Integer a = new Integer(2); Integer b = new Integer(2); What happens when you do if (a==b)?
+False
+
+17) The methods wait(), notify() and notifyAll() in Object need to be called from synchronized pieces of code.
+True
+
+18) Inner classes can be defined within methods.
+Yes
+
+19) Synchronized is a keyword to tell a Thread to grab an Object lock before continuing execution.
+True
+
+20) The default statement of a switch is always executed.
+False
+
+21) What is the keyword used in java to create an object?
+New
+
+22) What is the correct syntax for java main method?
+public static void main(String args[]) is the right format. String instead of string is the correct one
+
+23) A null reference may be used to access a static variable or method.
+No
+
+24) Native methods can be 'abstract'
+No
+
+25) Which of the following is not a Java keyword?
+Integer (Try, Main and String are)
+
+26) What is an Applet ?
+A Java program that is run through a web browser
+
+27)
+
+
+
+
+
+
+
+
+
+
+
+

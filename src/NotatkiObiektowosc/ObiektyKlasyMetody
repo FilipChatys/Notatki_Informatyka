@@ -1,0 +1,47 @@
+@ Metoda - to linie kodu , które działają tylko kiedy są wywołane. W metodach implementowane akcje zwane funkcjami.
+Metody definiują, jakie operacje klasa udostępnia dla zewnętrznego świata i jak można z niej korzystać. Metody
+działają na obiektach i mają dostęp do zmiennych składowych tych obiektów.
+
+@ Klasy - jest to szablon dla obiektów, schemat zawierający obiekty i metody.
+
+@ Obiekty - to instancje klas, to co tworzone z szablonu czyli klasy.
+
+@ Zmienne - Zmienna w Javie to tak naprawdę nic innego – jak kontener danych. Nazwa zmiennej jest tylko nazwą nadaną
+miejscu w pamięci tzw. wskaźnikiem. Wszystkie operacje wykonywane na zmiennej wpływają na tę lokalizację pamięci.
+
+@ Mutator - metoda, któa po wywołaniu sprawia, że zmienna w kodzie przestaje reprezentować pierwotną wartość.
+
+@ Akcesor - metoda wykorzystująca tylko dane z obiektów, ale bez ich modyfikowania.
+
+@ Metoda, np double raiseSalary pobiera dwa parametry. Pierwszy z nich, zwany parametrem niejawnym
+  (ang. implicit parameter), to obiekt klasy (w tym przypadku klasy Employee), który znajduje się przed nazwą metody
+  (czyli double). Drugi parametr, liczba w nawiasach za nazwą metody, to parametr jawny (ang. explicit parameter).
+  Jak widać, parametry jawne są wypisane w deklaracji metody, a parametr niejawny nie pojawia się w deklaracji metody.
+
+@ Metody statyczne - czyli takie, któe nie działają na obiektach. Innymi słowy, nie ma parametru niejawnego. Metody
+statyczne można zapamiętać jako takie, które nie mają parametru this (w metodzie niestatycznej parametr this
+odwołuje się do parametru niejawnego metody).
+
+@ Parametry metod :
+Wywołanie przez wartość oznacza, że metoda odbiera tylko wartość dostarczoną przez wywołującego.
+
+Wywołanie przez referencję oznacza, że metoda odbiera lokalizację zmiennej dostarczonej przez wywołującego.
+
+W związku z tym metoda może zmodyfikować wartość zmiennej przekazanej przez referencję, ale nie może tego zrobić ze
+zmienną przekazaną przez wartość.
+
+@ Przeciążanie metody - polega na utworzeniu kilku metod o takiej samej nazwie
+(w tym przypadku są to konstruktory klasy StringBuilder), ale przyjmujących różne parametry (inną sygnaturę).
+Kompilator musi zdecydować, którą wersję wywoła. Decyzję podejmuje na podstawie dopasowania typów parametrów w
+nagłówkach różnych metod do typów wartości przekazanych w konkretnym wywołaniu.
+
+@ Przesłanianie metod - mamy z nim do czynienia gdy klasa bazowa jak i pochodna posiadają tą samą sygnaturę metody.
+
+@ Automatyczne opakowanie (autoboxing) - to automatyczna konwersja dokonywana przez kompilator Java między typami
+pierwotnymi a odpowiadającymi im klasami opakowującymi obiekty : int na Integer, double na Double.
+
+@ Automatyczne odpakowanie - proces odwrotny do opakowania : Integer na int, Double na double.
+
+@
+
+

@@ -1,0 +1,46 @@
+(*)
+Pula Stringów - wydzielona specjalna część na stosie pamięci, mechanizm optymalizacji polegający na
+przechowywaniu tylko jednej unikatowej kopii wartości danego Stringa.
+Mechanizm puli String można ominąć korzystając z konstruktorów new String().
+
+(*)
+Obiekty String są niemutowalne czyli niezmienne w czasie, można co najwyżej wygenerować nową inną zmienną
+o tej samej nazwie, ale nie zmodyfikować istniejącą.
+
+(*)
+GC - garbage collector - dba o to, aby z pamięci usuwć rzeczy. On akurat usuwa nieużywane obiekty.
+Gdyby nie jego działanie, sterta, na którą trafiają nowo tworzone obiekty, szybko by się zapełniała i tym samym
+uniemożliwiała dalsze funkcjonowanie aplikacji.
+
+Co się tyczy zmiennych - one usuwają się automatycznie kiedy kończy się zasięg zmienych.
+
+Obiekty można usuwać, kiedy nie ma zmiennej z referencją do obiektu żadnego. Przykłady:
+
+(1) obiekt1 <-- obiekt2 <-- referencja a do obiektu2
+
+więc obiekt1 nie zniknie
+
+(2) obiekt1 <--> obiekt2
+
+I tutaj nie możemy ich teoretycznie usunąć bo obeiekty 1 i 2 mają referencję ze sobą.
+Ale GC nie wykrywa zmiennych w tych obiektach i usuwa je bo już nie zostaną użyte.
+
+(*)
+Fragmentacja pamięci - porządkowanie pamięci, odbywa się to za pomocą referencji i dochodzi do zapauzowania
+wykonywania kodu. W tym czasie GC wykonuje swoje zadanie. GC steruje programem i wykonuje "stop the world".
+To całe zjawisko pauzy i wykonania nazywa się " stop the world ", podczas krótego apka się wiesza i fragmentuje.
+
+(*)
+Mamy 3 generacje GC :
+Young generation - oznacza młodszą generację obiektów w pamięci, które są tworzone i używane
+przez program w trakcie jego działania; czyszczona przez Minor GC
+
+Old generation - to pojęcie związanego z zarządzaniem pamięcią wirtualnej maszyny Java (JVM) i oznacza obszar
+pamięci, w którym przechowywane są obiekty, które przetrwały wiele cykli zbierania śmieci; czyszczona przez Major GC
+
+Permament generation - przechowywane były metadane dotyczące klas, takie jak informacje o ich strukturze, atrybuty,
+nazwy metod itp. Był to oddzielny obszar od sterty (heap), który zawierał obiekty.
+
+Full GC - czyści zarówno Young i Old generation
+
+(*)

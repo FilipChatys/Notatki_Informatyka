@@ -1,0 +1,6 @@
+@ Buforowanie - porcjonowanie kody na fragmenty, pozwala odczytywać program i kod częściowo
+
+@ Metoda parsująca - parse.Int, parseString, parseDOuble itd. Jest to metoda konwertująca jeden typ danych
+na drugi, nawet podczas wykorzystania typów niekopatybilnych.
+
+@

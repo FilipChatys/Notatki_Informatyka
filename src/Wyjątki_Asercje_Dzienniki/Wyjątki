@@ -1,0 +1,25 @@
+@ Klasa Throwable - jest nadklasą wszystkich błędów i wyjątków w języku Java.
+
+@ Błędy - errors, wskazują na poważny problem w aplikacji, nie powinny być wychwycone ani rozwiązane.
+
+@ Błędy należy znaleźć i poprawić.
+
+@ Wyjątki kontrolowane - rodzaje zwróceń , które są wychwytywane podczas kompilacji programu. Muszą być zdefiniowane
+w nagłówku metody lub rozwiązane.
+
+@ Wyjątki niekontrolowane - wyjątki przy uruchomieniu (runtime exceptions), aplikacja raczej nie będzie w stanie
+sama poradzić sobie z takimi, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+@ Złożoność obliczeniowa algorytmu określa, jak wydajny jest algorytm, ile musi on wykonać operacji w zależności ilości
+danych oraz ile potrzebuje do tego pamięci. Często zdarza się, że dany problem algorytmiczny można rozwiązać
+kilkoma metodami, czyli algorytmami o różnej złożoności obliczeniowej.
+
+@ Złożoność obliczeniową dzielimy na złożoność pamięciową oraz złożoność czasową.
+
+@ Złożoność pamięciowa algorytmu wyznaczana jest na podstawie ilości potrzebnej pamięci do rozwiązania problemu.
+Na przykład, jeśli dla danych wejściowych złożonych z n elementów nasz algorytm będzie zużywał dwa razy tyle
+pamięci, ile zużyłby na te n elementów, to mówimy, że złożoność pamięciowa wynosi 2n, natomiast, jeżeli do rozwiązania
+problemu potrzebuje stałą niewielką ilość komórek pamięci, to mówimy, że taka złożoność jest stała. Oczywiście,
+im mniejsza złożoność, tym lepiej.
+
+@ Złożoność obliczeniowa określa, ile głównych operacji musi wykonać algorytm, aby rozwiązać problem dla n elementów
+będących danymi wejściowymi. Elementami tymi mogą być liczby, znaki itd. Główną operacją może być porównywanie
+elementów i ich przestawienie (np. w algorytmach sortujących), dodawanie, mnożenie itp. Załóżmy, że dla n liczb
+nasz algorytm będzie wykonywał 2n przestawień oraz 3n + 10 mnożeń co daje 5n + 10 operacji.
+
+@ Im mniejsza złożoność algorytmu, tym jest on bardziej wydajny. Poniżej wypisane są złożoności od najwydajniejszej do
+ najwolniejszej oraz szacowana liczba operacji, którą algorytm wykona dla 100 elementów:
+
+    O(1) - stała (od jednego do kilku operacji),
+    O(log n) - logarytmiczna (7 operacji), tzw quick sort (dzielenie na pół);
+    O(n) - liniowa (100 operacji),
+    O(n log n) - n razy logarytm z n (700 operacji),
+    O(n^2) - kwadratowa (wielomianowa) (10 000 operacji),
+    O(n^3) - sześcienna (1000 000 operacji),
+    O(n!) - n silnia (1*2*3*4*...*100 operacji),
+    O(2^n) - wykładnicza (2100 operacji).
+
+    Algorytmy heurystyczne - nie najlepszy wynik, ale z dużym prawdopodobieństwem najbardziej odpowiedni.
+    Korzystając z tych algorytmów działają mapy czy antywirusy.
+
+    Algorytm MonteCarlo - algorytm losowy.

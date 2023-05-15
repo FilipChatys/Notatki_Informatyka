@@ -1,0 +1,27 @@
+@ Interfejs - jest on definiowany jako typ abstrakcyjny używany do określania zachowania klasy.
+Interfejs w Javie to schemat zachowania. Interfejs Java zawiera stałe statyczne i metody abstrakcyjne, które
+wskazują na to jakie funkcje ma posiadać klasa.
+
+@ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

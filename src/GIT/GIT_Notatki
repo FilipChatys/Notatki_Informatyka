@@ -1,0 +1,17 @@
+@ Branch - gałąź, jest to wersja Twojego repozytorium, ale jest to niezależna linia jego rozwoju do momendu
+wykonania komendy merge
+
+@ Merge - łączy gałęzi (branche) repozytorium.
+
+@ Commit - w systemach kontroli wersji comit jest operacją, która wysyła najnowsze zmiany kodu źródłowego do
+repozytorium, czyniąc te zmiany częścią głównej wersji repozytorium
+
+@ Commity w notatniku można cofać, gałęzie trzeba usuwać ręcznie.
+
+
+
+
+
+
+
+

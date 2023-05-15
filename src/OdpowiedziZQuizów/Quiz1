@@ -1,0 +1,76 @@
+1) Which of the following is true about protected access modifier?
+Variables, methods, and constructors which are declared protected can be accessed by any class lying in the same package.
+
+2) When static binding occurs?
+Static binding occurs during Compile time.
+
+3) Inheritance represents : IS-A relationship.
+IS-A relationship in java can be achieved by using the keyword 'extends' in the code. It is used for avoiding
+any kind of redundancy in the code and to reuse the class and methods in the program. The IS-A relationship
+is unidirectional which means that mango is a fruit but not all fruits are mango.
+
+Visualization:
+
+Class Lady
+|
+| IS-A
+|
+↓
+Class Mother ---- HAS-A ---> Class Son
+
+4) What of the following is the default value of a local variable? :
+Not assigned
+
+5) What is a class in java?
+A class is a blue print from which individual objects are created. A class can contain fields and methods to
+describe the behavior of an object.
+
+6) What is the default value of int variable? :
+0
+
+7) What is class variable?
+class variables are static variables within a class but outside any method.
+
+8) What is the default value of short variable? :
+0.0
+
+9) What is TreeSet Interface?
+It is a Set implemented when we want elements in a sorted order.
+
+10) Which of the following is a marker interface?
+serializable
+
+11) What is JRE?
+JRE is an implementation of the Java Virtual Machine which executes Java programs.
+
+12) which operator is considered to be with highest precedence?
+() , []
+
+13) What is Deserialization?
+Deserialization is the process of restoring state of an object from a byte stream.
+
+14) Which of the following is true about private access modifier?
+Variables, methods and constructors which are declared private can be accessed only by the members of the same class.
+
+15) Can be constructor be made private? Yes
+
+16) What is the default value of char variable?
+'\u0000'
+
+17) What is the size of double variable? 64-bit
+The double data type is represented by double-precision 64-bit IEEE 754 floating point.
+
+18) Can a top level class be private or protected?
+No
+
+19) What kind of variables a class can consist of?
+class variables, local variables, instance variables
+
+
+
+
+
+
+
+
+

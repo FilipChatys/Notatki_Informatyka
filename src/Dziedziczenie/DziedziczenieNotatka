@@ -1,0 +1,57 @@
+@ Hierarchia dziedziczenia - to struktura klas i ich drogi dziedziczenia od wspólnej klasy bazowej.
+
+@ Łańcuch dziedziczenia - ścieżka od danej klasy do jej przodków w hierarchii dziedziczenia.
+
+@ Interfejs - nie można z niego tworzyć obiektu, jest to sposób opisu czegoś.
+
+@ Klasa abstrakcyjna - jest klasą ograniczoną, której nie można używać do tworzenia obiektów.
+
+@ Klasa abstrakcyjna pozwala na tworzenie funkcjonalności, które podklasy mogą implementować lub zastępować, podczas
+gdy interfejs pozwala tylko na określenie funkcjonalności, ale nie na jej implementację.
+
+@ Rzutowanie - inaczej casting. Polega na wymuszaniu konwersji pomiędzy dwoma typami.
+
+@ Metoda equals - służy do porównywania obiektów. Charakteryzuje się 5ma regułami :
+
+1. Zwrotność - x.equals(x) daje true jeśli x != null;
+
+2. Symetria - x.equals(y) da true tylko jeśli y.equals(x) da true;
+
+3. Przemienność - jeśli x.equals(y) da true i y.equals(z) da true, to x.equals(y) też da true;
+
+4. Niezmienność - jeśli obiekty, do których odwołują się zmienne x i y nie zmieniły się, kolejne wywołania x.equals(y)
+zwracają tę samą wartość.
+
+5. Dla każdego x różnego od null, wywołanie x.equals(null) powinno zwrócić wartość false.
+
+@ Metoda hash code - jest to specjalna metoda, która za pomocą wywołania x.hashCode
+Zwraca nam specjalny "skrót" obiektu, za pomocą któego możemy go zidentyfikować.
+
+@ Metoda toString - konwertuje typ int do String
+
+@ Typy generyczne - W uproszczeniu można powiedzieć, że typy generyczne są “szablonami”. Dzięki typom generycznym
+możemy uniknąć niepotrzebnego rzutowania. Ponadto przy ich pomocy kompilator jest w stanie sprawdzić poprawność
+typów na etapie kompilacji, oznacza to więcej błędów wykrytych w jej trakcie.
+Tworząc nową klasę tablicową korzysta się z tzw. składni diamentowej (ang. diamond syntax), nazwana tak ze względu na
+to, że pusty nawias <> przypomina kształtem diament. Należy ją stosować w połączeniu z operatorem new. Przykład:
+
+ArrayList<Employee> staff = new ArrayList<>();
+
+ArrayList<E>(int initialCapacity) gdzie E to klasa elementów a initialCapacity to rozmiat tablicy
+
+@ Metoda extends - rozszerza jakąś klasę inną klasą. Dodaje to do rozszerzanej klasy nowe funkcjonalności.
+
+@ @Override - tak zwane przesłanianie, nadpisanie metody; służy do utworzenia metody o tych samych parametrach, ale
+dzięki @Override będzie działała inaczej w zależności od wykorzystania w innej klasie.
+
+@ Polimorfizm - inaczej wielopostaciowość, czyli kiedy mamy klasy dziedziczące po innej klasie. Używamy go "w górę".
+Oznacza, że możemy traktować obiekty różnych typów w taki sam sposób jeżeli łączy je relacja dziedziczenia.
+
+@ instanceff - to operator binarny, którego używamy do sprawdzenia, czy obiekt jest danego typu, np
+(if zmienna_pet instanceof klasa_Cat)
+
+@
+
+
+
+
