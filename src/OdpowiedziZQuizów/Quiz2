@@ -90,9 +90,32 @@ VariableType variableName;
 30)  What is an assignment statement ?
  Assigning a value to a variable
 
-31)
+31) What will be the value of "num" after the following statements? int num; num = (5+4); num = num / 9; num = 9;
+9
 
+32) What is a loop ?
+ A segment of code to be run a specified amount of times
 
+33) Sections of all loop types :
+Inicialization, Loop body, Test statement
+
+34) What does AWT stands for ?
+Abstract window Toolkit
+
+35) If none of the private/protected/public is specified for a member, that member ...
+Is only accessible by other classes of the same package
+
+36) Which is not a part of defining an object?
+Description
+
+37) Class B inherits from Class A, what CANNOT be said:
+B has access to private members of A
+
+38) What is a member of a class
+Attribute or method
+
+39) With inheritance, a derived subclass object can directly access any
+ Public superclass member (and protected subclass members if it's in the same package)
 
 
 

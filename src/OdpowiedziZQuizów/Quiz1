@@ -52,7 +52,8 @@ Deserialization is the process of restoring state of an object from a byte strea
 14) Which of the following is true about private access modifier?
 Variables, methods and constructors which are declared private can be accessed only by the members of the same class.
 
-15) Can be constructor be made private? Yes
+15) Can be constructor be made private?
+Yes
 
 16) What is the default value of char variable?
 '\u0000'
@@ -65,6 +66,27 @@ No
 
 19) What kind of variables a class can consist of?
 class variables, local variables, instance variables
+
+20) Primitive data types :
+int, byte, short, long, float, double, boolean and char
+
+21) Non-Primitive data types :
+String, Array,
+
+22) What are the main principles of Java OOP?
+ Abstraction, inheritance, polymorphism and encapsulation
+
+23) What class modifier doesn't exist?
+foreign
+
+24) Are nested loops allowable in Java?
+Yes
+
+25) What method of Scanner scans an input line before the first spacing?
+next()
+
+26) What's the value of variable byte b = 7;?
+0000 0111  (format 8 bitowy)
 
 
 
