@@ -78,7 +78,20 @@ Integer (Try, Main and String are)
 26) What is an Applet ?
 A Java program that is run through a web browser
 
-27)
+27) Java runs on :
+Mac, Linux, Windows
+
+28) What is the main function of any variable ?
+ To keep track of data in the memory of the computer
+
+29) What is the proper way to declare a variable ?
+VariableType variableName;
+
+30)  What is an assignment statement ?
+ Assigning a value to a variable
+
+31)
+
 
 
 
