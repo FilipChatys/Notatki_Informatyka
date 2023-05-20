@@ -37,7 +37,7 @@ to, że pusty nawias <> przypomina kształtem diament. Należy ją stosować w p
 
 ArrayList<Employee> staff = new ArrayList<>();
 
-ArrayList<E>(int initialCapacity) gdzie E to klasa elementów a initialCapacity to rozmiat tablicy
+ArrayList<E>(int initialCapacity) gdzie E to klasa elementów a initialCapacity to rozmiar tablicy
 
 @ Metoda extends - rozszerza jakąś klasę inną klasą. Dodaje to do rozszerzanej klasy nowe funkcjonalności.
 

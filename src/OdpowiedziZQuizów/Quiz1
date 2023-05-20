@@ -73,7 +73,7 @@ int, byte, short, long, float, double, boolean and char
 21) Non-Primitive data types :
 String, Array,
 
-22) What are the main principles of Java OOP?
+22) What are the main principles of Java OOP (Java Object-Oriented Programming) ?
  Abstraction, inheritance, polymorphism and encapsulation
 
 23) What class modifier doesn't exist?
@@ -86,8 +86,23 @@ Yes
 next()
 
 26) What's the value of variable byte b = 7;?
-0000 0111  (format 8 bitowy)
+0000 0111  (format 8 bajtowy)
 
+27) Sizes
+
+The size of "short" variable is 2 bytes
+
+The size of an "int" variable is 4 bytes (32 bits) in Java.
+
+The size of "float" variable is 4 bytes
+
+The size of "long" variable is 8 bytes
+
+The size of "double" variable is 8 bytes
+
+
+28) Po wywołaniu for (;;) {} otrzymamy:
+pętlę nieskończoną
 
 
 
