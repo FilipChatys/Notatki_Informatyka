@@ -1,0 +1,49 @@
+- Invertion of control - jest to zasada programowania, w której, jak sama nazwa wskazuje,
+odwracamy przepływ sterowania. Tradycyjnie aplikacje mają główną funkcję, w której zastosowano logikę
+i dostosowano ją do pożądanego przepływu użytkowników. Z IoC jest inaczej. Rdzeń aplikacji znajduje się
+teraz we frameworku, w którym zapewniamy niestandardową logikę zachowań poprzez implementację abstrakcji tych zależności
+
+- Dependancy injection - Simply put, dependency injection (DI) is having a framework that provides
+a component with its dependencies, so you don’t have to construct the objects with all their dependencies yourself.
+
+- Framework a biblioteka - biblioteka to jedno konkretne narzędzie a framework to zrbiór narzędzi.
+Framework jest to szkielet do budowy aplikacji, który dostarcza niezbędne biblioteki i komponenty oraz
+definiuje strukturę i działanie danej aplikacji.
+
+Biblioteka to zależność, a zależności między nimi to tak zwane drzewo zależności.
+
+- Wersje - kolejna wersja projektu Maven, przebudowana stara wersja jest nową wersją (nawet jedna linijka zmiany).
+
+- Snapshot - A snapshot version in Maven is one that has not been released.
+
+The idea is that before a 1.0 release (or any other release) is done, there exists a 1.0-SNAPSHOT.
+That version is what might become 1.0. It's basically "1.0 under development". This might be
+close to a real 1.0 release, or pretty far.
+
+- Release - konkretna wersja stworzona w konkretnym czasie, dana klientowi z przypisanym identyfikatorem.
+This plugin is used to release a project with Maven, saving a lot of repetitive, manual work.
+Releasing a project is made in two steps: prepare and perform
+
+- Maven Repository - zbriór dependencji Maven
+
+- HTTP - protokół komunikacji z serwerami.
+
+            Request
+        ---------------->
+Client                      Server
+        <----------------
+            Response
+
+
+- Request składa się z 4 części :
+* adress (adres klienta)
+* method (metody)
+* headers (nagłówki z danami technicznymi)
+* body (dane biznesowe)
+
+- Request składa się z 3 części:
+* status
+* header
+* body
+
+-
